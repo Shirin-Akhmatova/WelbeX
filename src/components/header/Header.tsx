@@ -1,8 +1,8 @@
 import style from "./Header.module.scss";
-import Logo from "../assets/logo/logo_welbex.svg";
-import Telegram from "../assets/icons/telegram.svg";
-import Viber from "../assets/icons/viber.svg";
-import Whatsapp from "../assets/icons/whatsapp.svg";
+import Logo from "../../assets/logo/logo_welbex.svg";
+import Telegram from "../../assets/icons/telegram.svg";
+import Viber from "../../assets/icons/viber.svg";
+import Whatsapp from "../../assets/icons/whatsapp.svg";
 
 function Header() {
   return (
