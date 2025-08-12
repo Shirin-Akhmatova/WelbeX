@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_wrapper {
+  .logo {
+    cursor: pointer;
+  }
+  p {
+    font-weight: 300;
+    color: #e4e5ea;
+    font-size: 10px;
+  }
+}
+
+.nav_bar {
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+}
+
+.contacts {
+  display: flex;
+  gap: 30px;
+
+  h6 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #e4e5ea;
+    padding-right: 17px;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    cursor: pointer;
+  }
+}
